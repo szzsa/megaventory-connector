@@ -4,7 +4,9 @@
 ## [Support](https://szzsa.github.io/megaventory-connector/support)
 ______________________________________
 # Home
-This is a Megaventory community connector for Google Data Studio.
+This is a Megaventory community connector for Google Data Studio.<br>
+Access the following link to use the connector:<br>
+[GDS Megaventory Connector](https://datastudio.google.com/datasources/create?connectorId=AKfycbzZsRGJjR_8HaHN8lrOevw4vc_iu6Xpd0cWkrx9LWA)
 ## API
 ### Documentation
 For more details about Megaventory API please go to <br>
