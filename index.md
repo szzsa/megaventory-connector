@@ -7,7 +7,7 @@ ______________________________________
 This is a Megaventory community connector for Google Data Studio.
 ## API
 ### Documentation
-https://api.megaventory.com/
+For more details about Megaventory API please go to [api.megaventory.com](https://api.megaventory.com)
 ### Filters
 Only the following document types are retrieved:
 <table>
