@@ -36,58 +36,98 @@ Only the following document types are retrieved:
 ### Dimensions
 <table>
   <thead>
-    <th>Id</th>
     <th>Name</th>
+    <th>Description</th>
     <th>Type</th>
   </thead>
   <tr>
-    <td>DocumentNo</td>
     <td>Number</td>
+    <td>Document Number</td>
     <td>Text</td>
   </tr>
   <tr>
-    <td>DocumentReferenceNo</td>
-    <td>Reference</td>
+    <td>PO Number</td>
+    <td>PO Number (Document Reference Number)</td>
     <td>Text</td>
   </tr>
   <tr>
-    <td>DocumentDate</td>
     <td>Date</td>
+    <td>Document Date</td>
     <td>Date</td>
   </tr>
   <tr>
-    <td>DocumentContactPerson</td>
     <td>End User</td>
+    <td>End User (Contact Person)</td>
     <td>Text</td>
   </tr>
   <tr>
-    <td>DocumentTags</td>
-    <td>Tags</td>
+    <td>Sales Rep</td>
+    <td>Sales Rep (Tags)</td>
     <td>Text</td>
   </tr>
   <tr>
-    <td>DocumentRowProductSKU</td>
     <td>SKU</td>
+    <td>Product SKU</td>
     <td>Text</td>
   </tr>
   <tr>
-    <td>DocumentRowProductDescription</td>
     <td>Product</td>
+    <td>Product Description</td>
     <td>Text</td>
   </tr>
   <tr>
-    <td>DocumentRowUnitPriceWithoutTaxOrDiscount</td>
     <td>Unit Price</td>
+    <td>Product Price per Unit</td>
     <td>Currency (USD)</td>
   </tr>
   <tr>
-    <td>DocumentRowQuantity</td>
     <td>Quantity</td>
+    <td>Product Quantity per Document Row</td>
     <td>Numeric</td>
   </tr>
   <tr>
-    <td>DocumentRowTotalAmount</td>
     <td>Amount</td>
+    <td>Total Amount per Document Row</td>
     <td>Currency (USD)</td>
+  </tr>
+  <tr>
+    <td>Ship-By Date</td>
+    <td>Ship-By Date</td>
+    <td>Date</td>
+  </tr>
+  <tr>
+    <td>On Hold</td>
+    <td>Flag (boolean) indicating On Hold state</td>
+    <td>Boolean</td>
+  </tr>
+  <tr>
+    <td>Ordered</td>
+    <td>Flag (boolean) indicating Ordered state</td>
+    <td>Boolean</td>
+  </tr>
+  <tr>
+    <td>Client ID</td>
+    <td>Document Supplier Client ID</td>
+    <td>Text</td>
+  </tr>
+  <tr>
+    <td>Client Name</td>
+    <td>Document Supplier Client Name</td>
+    <td>Text</td>
+  </tr>
+  <tr>
+    <td>Inventory Location ID</td>
+    <td>Document Inventory Location ID</td>
+    <td>Text</td>
+  </tr>
+  <tr>
+    <td>Ordered From</td>
+    <td>Document Inventory Location Name</td>
+    <td>Text</td>
+  </tr>
+  <tr>
+    <td>Status</td>
+    <td>Document Status</td>
+    <td>Text</td>
   </tr>
 </table>
